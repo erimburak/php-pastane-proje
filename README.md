@@ -31,9 +31,9 @@ XAMPP'ı [buradan](https://www.apachefriends.org/index.html) indirip kurabilirsi
 ```php
 <?php
 $servername = "localhost";
-$username = "veritabani_kullanici_adi";
-$password = "veritabani_sifresi";
-$dbname = "pastane";
+$username = "root";
+$password = "";
+$dbname = "pastane"; // Veritabanınızın adı
 
 // Bağlantı oluşturma
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -43,3 +43,4 @@ if ($conn->connect_error) {
     die("Bağlantı başarısız: " . $conn->connect_error);
 }
 ?>
+
