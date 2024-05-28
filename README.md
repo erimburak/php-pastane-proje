@@ -1,4 +1,6 @@
 # php-pastane-proje
+### Site Linki
+95.130.171.20/~st21360859024/
 # Pastane Yönetim Sistemi
 
 Bu proje, bir pastane yönetim sistemi için PHP ve MySQL kullanılarak geliştirilmiştir. Proje, ürün ekleme, düzenleme, silme ve kullanıcı giriş/çıkış işlemlerini içermektedir.
